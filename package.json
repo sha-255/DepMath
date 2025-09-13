@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw": "npx @tailwindcss/cli -i ./web/css/site.css -o ./web/css/output.css --watch"
+    "tw": "npx @tailwindcss/cli -i ./web/css/main.css -o ./web/css/site.css --watch"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/sha-255/DepMath#readme",
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.13",
-    "postcss": "^8.5.6",
+    "@tailwindcss/cli": "^4.1.13",
     "tailwindcss": "^4.1.13"
   }
 }
